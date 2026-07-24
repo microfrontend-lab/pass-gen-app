@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Card } from '@/components/ui';
+import { CopyIcon } from './CopyIcon';
 import styles from './PasswordDisplay.module.css';
 
 export interface PasswordDisplayProps {
@@ -31,7 +32,7 @@ export function PasswordDisplay({ password }: PasswordDisplayProps) {
           onClick={handleCopy}
           aria-label="Copy password to clipboard"
         >
-          Copy
+          <CopyIcon />
         </button>
       </span>
     </Card>
