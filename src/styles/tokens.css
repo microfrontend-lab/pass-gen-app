@@ -1,0 +1,59 @@
+:root {
+  --font-family-base:
+    -apple-system,
+    blinkmacsystemfont,
+    'Segoe UI',
+    roboto,
+    oxygen,
+    ubuntu,
+    cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+
+  --color-bg: #121212;
+  --color-surface: #292e37;
+  --color-surface-alt: #333944;
+  --color-border: #33373f;
+  --color-text: #e8e6e1;
+  --color-text-muted: #a3a099;
+  --color-primary: #71bedb;
+  --color-primary-hover: #58a8c7;
+  --color-success: #3fb27f;
+  --color-warning: #e0983f;
+  --color-danger: #e5484d;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --shadow-card: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+[data-theme='light'] {
+  --color-bg: #fff;
+  --color-surface: #f8f8f9;
+  --color-surface-alt: #eef0f2;
+  --color-border: #dfe1e4;
+  --color-text: #242424;
+  --color-text-muted: #4d4d4d;
+}
